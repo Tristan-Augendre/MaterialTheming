@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Components.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_marginBottom">@dimen/component_spacing</item>
+        <item name="android:textAppearance">@style/TextAppearance.Base</item>
+    </style>
+
+</resources>

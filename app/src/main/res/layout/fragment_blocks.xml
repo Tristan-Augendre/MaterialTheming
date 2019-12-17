@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/Frame.Content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView style="@style/Components.TextView.Heading1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heading1 : Notre égo nous fait croire que nous sommes totalement unique mais on veut tous la même chose ou presque : de l’amour, de l’indulgence, du chocolat."/>
+
+        <TextView style="@style/Components.TextView.Heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heading2 : Notre égo nous fait croire que nous sommes totalement unique mais on veut tous la même chose ou presque : de l’amour, de l’indulgence, du chocolat."/>
+
+        <TextView style="@style/Components.TextView.Heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heading3 : Notre égo nous fait croire que nous sommes totalement unique mais on veut tous la même chose ou presque : de l’amour, de l’indulgence, du chocolat."/>
+
+        <TextView style="@style/Components.TextView.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Large : Notre égo nous fait croire que nous sommes totalement unique mais on veut tous la même chose ou presque : de l’amour, de l’indulgence, du chocolat."/>
+
+        <TextView style="@style/Components.TextView.Base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Base : Notre égo nous fait croire que nous sommes totalement unique mais on veut tous la même chose ou presque : de l’amour, de l’indulgence, du chocolat."/>
+
+        <TextView style="@style/Components.TextView.Base.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Base Bold : Notre égo nous fait croire que nous sommes totalement unique mais on veut tous la même chose ou presque : de l’amour, de l’indulgence, du chocolat."/>
+
+        <TextView style="@style/Components.TextView.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Small : Notre égo nous fait croire que nous sommes totalement unique mais on veut tous la même chose ou presque : de l’amour, de l’indulgence, du chocolat."/>
+
+        <TextView style="@style/Components.TextView.Small.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Small Bold : Notre égo nous fait croire que nous sommes totalement unique mais on veut tous la même chose ou presque : de l’amour, de l’indulgence, du chocolat."/>
+
+        <TextView style="@style/Components.TextView.Micro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Micro : Notre égo nous fait croire que nous sommes totalement unique mais on veut tous la même chose ou presque : de l’amour, de l’indulgence, du chocolat."/>
+
+        <TextView style="@style/Components.TextView.Micro.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Micro Bold : Notre égo nous fait croire que nous sommes totalement unique mais on veut tous la même chose ou presque : de l’amour, de l’indulgence, du chocolat."/>
+
+        <TextView style="@style/Components.TextView.Nano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nano : Notre égo nous fait croire que nous sommes totalement unique mais on veut tous la même chose ou presque : de l’amour, de l’indulgence, du chocolat."/>
+
+        <TextView style="@style/Components.TextView.Uppercase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uppercase : Notre égo nous fait croire que nous sommes totalement unique mais on veut tous la même chose ou presque : de l’amour, de l’indulgence, du chocolat."/>
+
+    </LinearLayout>
+
+</ScrollView>

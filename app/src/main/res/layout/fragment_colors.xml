@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/Frame.Content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/baseColor_cyanDark"
+            android:padding="@dimen/component_spacing_small"
+            android:text="Cyan Dark"
+            android:textColor="@color/baseColor_whitePaper"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/baseColor_cyanLight"
+            android:padding="@dimen/component_spacing_small"
+            android:text="Cyan Light"
+            android:textColor="@color/baseColor_whitePaper"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/baseColor_cyanSuperLight"
+            android:padding="@dimen/component_spacing_small"
+            android:text="Cyan Super Light"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="@dimen/component_spacing_small"
+            android:background="@color/baseColor_cherryDark"
+            android:padding="@dimen/component_spacing_small"
+            android:text="Cherry Dark"
+            android:textColor="@color/baseColor_whitePaper"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/baseColor_cherryLight"
+            android:padding="@dimen/component_spacing_small"
+            android:text="Cherry Light"
+            android:textColor="@color/baseColor_whitePaper"
+            app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/baseColor_cherrySuperLight"
+            android:padding="@dimen/component_spacing_small"
+            android:text="Cherry Super Light"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="@dimen/component_spacing_small"
+            android:background="@color/baseColor_mikadoYellowDark"
+            android:padding="@dimen/component_spacing_small"
+            android:text="Mikado Yellow Dark"
+            android:textColor="@color/baseColor_whitePaper"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/baseColor_mikadoYellowLight"
+            android:padding="@dimen/component_spacing_small"
+            android:text="Mikado Yellow Light"
+            android:textColor="@color/baseColor_whitePaper"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/baseColor_mikadoYellowSuperLight"
+            android:padding="@dimen/component_spacing_small"
+            android:text="Mikado Yellow Super Light"
+            app:layout_constraintStart_toEndOf="@+id/textView7"
+            app:layout_constraintTop_toTopOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="@dimen/component_spacing_small"
+            android:background="@color/baseColor_concreteDark"
+            android:padding="@dimen/component_spacing_small"
+            android:text="Concrete Dark"
+            android:textColor="@color/baseColor_whitePaper"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/baseColor_concreteMedium"
+            android:padding="@dimen/component_spacing_small"
+            android:text="Concrete Medium"
+            android:textColor="@color/baseColor_whitePaper"
+            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/baseColor_concreteLight"
+            android:padding="@dimen/component_spacing_small"
+            android:text="Concrete Light"
+            app:layout_constraintStart_toEndOf="@+id/textView9"
+            app:layout_constraintTop_toTopOf="@+id/textView9" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/baseColor_concreteSuperLight"
+            android:padding="@dimen/component_spacing_small"
+            android:text="Concrete Super Light"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

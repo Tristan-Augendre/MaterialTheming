@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/colors"
+            android:icon="@drawable/ic_color_lens"
+            android:title="@string/navigationColors"
+            android:checked="true"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/atoms"
+            android:icon="@drawable/ic_text_fields"
+            android:title="@string/navigationAtoms"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/blocks"
+            android:icon="@drawable/ic_text_block"
+            android:title="@string/navigationBlock"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/bars"
+            android:icon="@drawable/ic_bars"
+            android:title="@string/navigationBars"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/button"
+            android:icon="@drawable/ic_button"
+            android:title="@string/navigationButtons"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/dialogs"
+            android:icon="@drawable/ic_dialogs"
+            android:title="@string/navigationDialogs"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/controls"
+            android:icon="@drawable/ic_controls"
+            android:title="@string/navigationControls"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/fields"
+            android:icon="@drawable/ic_edit"
+            android:title="@string/navigationFields"
+            app:showAsAction="ifRoom"/>
+
+    </group>
+
+</menu>

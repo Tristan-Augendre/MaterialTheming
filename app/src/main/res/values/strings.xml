@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MaterialTheming</string>
+
+    <string name="drawerOpen">open</string>
+    <string name="drawerClose">close</string>
+
+    <string name="navigationColors">Couleurs</string>
+    <string name="navigationAtoms">Atomes</string>
+    <string name="navigationBlock">Blocs de textes</string>
+    <string name="navigationBars">Barres</string>
+    <string name="navigationButtons">Boutons</string>
+    <string name="navigationDialogs">Boites de dialogues</string>
+    <string name="navigationControls">Controles</string>
+    <string name="navigationFields">Champs de text</string>
+
+    <string name="exampleLongText">Notre égo nous fait croire que nous sommes totalement unique mais on veut tous la même chose ou presque : de l’amour, de l’indulgence, du chocolat.</string>
+
+</resources>

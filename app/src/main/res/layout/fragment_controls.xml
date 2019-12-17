@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/Frame.Content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton style="@style/Components.RadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio1"
+                android:text="@string/exampleLongText"/>
+
+            <com.google.android.material.radiobutton.MaterialRadioButton style="@style/Components.RadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio2"
+                android:text="@string/exampleLongText"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton style="@style/Components.ChoiceButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/selector1"
+                android:text="Single choice button"/>
+
+            <com.google.android.material.radiobutton.MaterialRadioButton style="@style/Components.ChoiceButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/selector2"
+                android:text="Single choice button"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:showDividers="middle"
+            android:divider="@drawable/divider_horizontal">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton style="@style/Components.ChoiceButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/selector3"
+                android:text="1"/>
+
+            <com.google.android.material.radiobutton.MaterialRadioButton style="@style/Components.ChoiceButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/selector4"
+                android:text="2"/>
+
+            <com.google.android.material.radiobutton.MaterialRadioButton style="@style/Components.ChoiceButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/selector5"
+                android:text="3"/>
+
+            <com.google.android.material.radiobutton.MaterialRadioButton style="@style/Components.ChoiceButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/selector6"
+                android:text="4"/>
+
+        </RadioGroup>
+
+        <com.google.android.material.checkbox.MaterialCheckBox style="@style/Components.CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exampleLongText"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox style="@style/Components.ChoiceButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiple choice button"/>
+
+        <com.google.android.material.checkbox.MaterialCheckBox style="@style/Components.ChoiceButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiple choice button"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:showDividers="middle"
+            android:divider="@drawable/divider_horizontal">
+
+            <com.google.android.material.checkbox.MaterialCheckBox style="@style/Components.ChoiceButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"/>
+
+            <com.google.android.material.checkbox.MaterialCheckBox style="@style/Components.ChoiceButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2"/>
+
+            <com.google.android.material.checkbox.MaterialCheckBox style="@style/Components.ChoiceButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3"/>
+
+            <com.google.android.material.checkbox.MaterialCheckBox style="@style/Components.ChoiceButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.switchmaterial.SwitchMaterial style="@style/Components.Switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exampleLongText"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Frame"/>
+
+    <style name="Frame.Content">
+        <item name="android:paddingTop">@dimen/component_spacing_xlarge</item>
+        <item name="android:paddingStart">@dimen/component_spacing</item>
+        <item name="android:paddingEnd">@dimen/component_spacing</item>
+        <item name="android:paddingBottom">@dimen/component_spacing_xlarge</item>
+    </style>
+</resources>

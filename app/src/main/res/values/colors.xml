@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base color -->
+
+    <color name="baseColor_cyanDark">#008A83</color>
+    <color name="baseColor_cyanLight">#54BBBA</color>
+    <color name="baseColor_cyanSuperLight">#E8F3F3</color>
+
+    <color name="baseColor_cherryDark">#CC4B3E</color>
+    <color name="baseColor_cherryLight">#EC786C</color>
+    <color name="baseColor_cherrySuperLight">#F8EFEE</color>
+
+    <color name="baseColor_mikadoYellowDark">#FBB80E</color>
+    <color name="baseColor_mikadoYellowLight">#FCC947</color>
+    <color name="baseColor_mikadoYellowSuperLight">#FFF6E2</color>
+
+    <color name="baseColor_concreteDark">#565A5C</color>
+    <color name="baseColor_concreteMedium">#AFB0B2</color>
+    <color name="baseColor_concreteLight">#ECECEC</color>
+    <color name="baseColor_concreteSuperLight">#FAFAFA</color>
+
+    <color name="baseColor_whitePaper">#FFF</color>
+
+    <color name="baseColor_translucentBlack">#4D000000</color>
+
+    <color name="baseColor_blueFacebook">#3b5998</color>
+
+</resources>

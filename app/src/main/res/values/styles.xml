@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolbarStyle" parent="Widget.MaterialComponents.Toolbar.Surface">
+        <item name="titleTextColor">?colorOnSurface</item>
+    </style>
+
+    <style name="SnackbarStyle" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:backgroundTint">@color/baseColor_concreteDark</item>
+    </style>
+
+    <style name="SnackbarButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textAppearance">@style/TextAppearance.Base.Bold</item>
+        <item name="android:textColor">?colorPrimaryVariant</item>
+    </style>
+
+    <style name="DialogStyle" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="materialAlertDialogTitleTextStyle">@style/DialogTitleStyle</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/TextAppearance.Base</item>
+        <item name="buttonBarPositiveButtonStyle">@style/DialogButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/DialogButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/DialogButtonStyle</item>
+    </style>
+
+    <style name="DialogTitleStyle" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textAppearance">@style/TextAppearance.Heading2</item>
+    </style>
+
+    <style name="DialogButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textAppearance">@style/TextAppearance.Base.Bold</item>
+        <item name="android:textColor">?colorPrimary</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Components.TextView"/>
+
+    <style name="Components.TextView.Heading1">
+        <item name="android:textAppearance">@style/TextAppearance.Heading1</item>
+        <item name="android:lineSpacingMultiplier">1.02</item>
+        <item name="android:layout_marginBottom">@dimen/component_spacing_xlarge</item>
+    </style>
+
+    <style name="Components.TextView.Heading2">
+        <item name="android:textAppearance">@style/TextAppearance.Heading2</item>
+        <item name="android:lineSpacingMultiplier">1.14</item>
+        <item name="android:layout_marginBottom">@dimen/component_spacing_large</item>
+    </style>
+
+    <style name="Components.TextView.Heading3">
+        <item name="android:textAppearance">@style/TextAppearance.Heading3</item>
+        <item name="android:lineSpacingMultiplier">1.14</item>
+        <item name="android:layout_marginBottom">@dimen/component_spacing</item>
+    </style>
+
+    <style name="Components.TextView.Large">
+        <item name="android:textAppearance">@style/TextAppearance.Large</item>
+        <item name="android:lineSpacingMultiplier">1.19</item>
+        <item name="android:layout_marginBottom">@dimen/component_spacing_large</item>
+    </style>
+
+    <style name="Components.TextView.Base">
+        <item name="android:textAppearance">@style/TextAppearance.Base</item>
+        <item name="android:lineSpacingMultiplier">1.28</item>
+        <item name="android:layout_marginBottom">@dimen/component_spacing</item>
+    </style>
+
+    <style name="Components.TextView.Base.Bold">
+        <item name="android:textAppearance">@style/TextAppearance.Base.Bold</item>
+    </style>
+
+    <style name="Components.TextView.Small">
+        <item name="android:textAppearance">@style/TextAppearance.Small</item>
+        <item name="android:lineSpacingMultiplier">1.22</item>
+        <item name="android:layout_marginBottom">@dimen/component_spacing</item>
+    </style>
+
+    <style name="Components.TextView.Small.Bold">
+        <item name="android:textAppearance">@style/TextAppearance.Small.Bold</item>
+    </style>
+
+    <style name="Components.TextView.Micro">
+        <item name="android:textAppearance">@style/TextAppearance.Micro</item>
+        <item name="android:lineSpacingMultiplier">1.28</item>
+        <item name="android:layout_marginBottom">@dimen/component_spacing</item>
+    </style>
+
+    <style name="Components.TextView.Micro.Bold">
+        <item name="android:textAppearance">@style/TextAppearance.Micro.Bold</item>
+    </style>
+
+    <style name="Components.TextView.Nano">
+        <item name="android:textAppearance">@style/TextAppearance.Nano</item>
+        <item name="android:lineSpacingMultiplier">1.28</item>
+        <item name="android:layout_marginBottom">@dimen/component_spacing_small</item>
+    </style>
+
+    <style name="Components.TextView.Uppercase">
+        <item name="android:textAppearance">@style/TextAppearance.Uppercase</item>
+        <item name="android:lineSpacingMultiplier">1.14</item>
+        <item name="android:layout_marginBottom">@dimen/component_spacing_small</item>
+    </style>
+
+</resources>

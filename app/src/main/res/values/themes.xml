@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/baseColor_concreteMedium</item> <!-- Status bar color -->
+
+        <item name="colorPrimary">@color/baseColor_cyanDark</item>
+        <item name="colorPrimaryVariant">@color/baseColor_cyanLight</item>
+        <item name="colorSecondary">@color/baseColor_cyanDark</item>
+
+        <item name="colorSurface">@color/baseColor_whitePaper</item>
+        <item name="colorOnSurface">@color/baseColor_concreteDark</item>
+        <item name="colorOnPrimary">@color/baseColor_whitePaper</item>
+
+        <item name="colorControlNormal">?colorPrimary</item>
+        <item name="toolbarStyle">@style/ToolbarStyle</item>
+        <item name="radioButtonStyle">@style/Components.RadioButton</item>
+        <item name="checkboxStyle">@style/Components.CheckBox</item>
+        <item name="switchStyle">@style/Components.Switch</item>
+        <item name="snackbarStyle">@style/SnackbarStyle</item>
+        <item name="snackbarButtonStyle">@style/SnackbarButtonStyle</item>
+        <item name="materialAlertDialogTheme">@style/DialogStyle</item>
+        <item name="materialButtonStyle">@style/Components.Button</item>
+        <item name="textInputStyle">@style/Components.TextInputLayout</item>
+    </style>
+
+</resources>

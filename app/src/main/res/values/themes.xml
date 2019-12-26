@@ -4,15 +4,23 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="colorPrimaryDark">@color/baseColor_concreteMedium</item> <!-- Status bar color -->
+        <item name="colorPrimaryDark">@color/concrete</item> <!-- Status bar color -->
 
-        <item name="colorPrimary">@color/baseColor_cyanDark</item>
-        <item name="colorPrimaryVariant">@color/baseColor_cyanLight</item>
-        <item name="colorSecondary">@color/baseColor_cyanDark</item>
+        <item name="colorPrimary">@color/cyanDark</item>
+        <item name="colorPrimaryVariant">@color/cyan</item>
+        <item name="colorSecondary">@color/cyanDark</item>
 
-        <item name="colorSurface">@color/baseColor_whitePaper</item>
-        <item name="colorOnSurface">@color/baseColor_concreteDark</item>
-        <item name="colorOnPrimary">@color/baseColor_whitePaper</item>
+        <item name="colorSurface">@android:color/white</item>
+        <item name="colorOnSurface">@color/concreteDark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSurfacePositive">@color/cyanLight</item>
+        <item name="colorOnSurfacePositive">@color/cyan</item>
+        <item name="colorSurfaceWarning">@color/mikadoYellowLight</item>
+        <item name="colorOnSurfaceWarning">@color/mikadoYellow</item>
+        <item name="colorSurfaceNegative">@color/cherryLight</item>
+        <item name="colorOnSurfaceNegative">@color/cherry</item>
+        <item name="colorSurfaceNeutral">@color/concrete</item>
+        <item name="colorOnSurfaceNeutral">@android:color/white</item>
 
         <item name="colorControlNormal">?colorPrimary</item>
         <item name="toolbarStyle">@style/ToolbarStyle</item>

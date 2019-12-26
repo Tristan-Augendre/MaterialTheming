@@ -2,7 +2,7 @@
 <resources>
 
     <style name="TextAppearance">
-        <item name="android:textColor">@color/baseColor_concreteDark</item>
+        <item name="android:textColor">@color/concreteDark</item>
     </style>
 
     <style name="TextAppearance.Heading1">

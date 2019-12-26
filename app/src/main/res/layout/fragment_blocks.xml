@@ -68,6 +68,30 @@
             android:layout_height="wrap_content"
             android:text="Uppercase : Notre égo nous fait croire que nous sommes totalement unique mais on veut tous la même chose ou presque : de l’amour, de l’indulgence, du chocolat."/>
 
+        <TextView
+            style="@style/Components.TextView.InfoBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Neutral info banner" />
+
+        <TextView
+            style="@style/Components.TextView.InfoBanner.Positive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Positive info banner" />
+
+        <TextView
+            style="@style/Components.TextView.InfoBanner.Warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Positive info banner" />
+
+        <TextView
+            style="@style/Components.TextView.InfoBanner.Negative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Positive info banner" />
+
     </LinearLayout>
 
 </ScrollView>

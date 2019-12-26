@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="colorSurfacePositive" format="reference|color" />
+    <attr name="colorOnSurfacePositive" format="reference|color" />
+    <attr name="colorSurfaceWarning" format="reference|color" />
+    <attr name="colorOnSurfaceWarning" format="reference|color" />
+    <attr name="colorSurfaceNegative" format="reference|color" />
+    <attr name="colorOnSurfaceNegative" format="reference|color" />
+    <attr name="colorSurfaceNeutral" format="reference|color" />
+    <attr name="colorOnSurfaceNeutral" format="reference|color" />
+
+</resources>

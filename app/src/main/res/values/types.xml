@@ -69,4 +69,31 @@
         <item name="android:layout_marginBottom">@dimen/component_spacing_small</item>
     </style>
 
+    <style name="Components.TextView.InfoBanner">
+        <item name="android:padding">@dimen/component_spacing</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">@dimen/component_spacing</item>
+        <item name="android:drawableLeft">@drawable/ic_info</item>
+        <item name="android:background">@drawable/rounded_corner_background</item>
+        <item name="android:textColor">?colorOnSurfaceNeutral</item>
+    </style>
+
+    <style name="Components.TextView.InfoBanner.Positive">
+        <item name="android:drawableLeft">@drawable/ic_info_positive</item>
+        <item name="android:backgroundTint">?colorSurfacePositive</item>
+        <item name="android:textColor">?colorOnSurfacePositive</item>
+    </style>
+
+    <style name="Components.TextView.InfoBanner.Warning">
+        <item name="android:drawableLeft">@drawable/ic_info_warning</item>
+        <item name="android:backgroundTint">?colorSurfaceWarning</item>
+        <item name="android:textColor">?colorOnSurfaceWarning</item>
+    </style>
+
+    <style name="Components.TextView.InfoBanner.Negative">
+        <item name="android:drawableLeft">@drawable/ic_info_negative</item>
+        <item name="android:backgroundTint">?colorSurfaceNegative</item>
+        <item name="android:textColor">?colorOnSurfaceNegative</item>
+    </style>
+
 </resources>

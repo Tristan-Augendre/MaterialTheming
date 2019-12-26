@@ -3,27 +3,20 @@
 
     <!-- Base color -->
 
-    <color name="baseColor_cyanDark">#008A83</color>
-    <color name="baseColor_cyanLight">#54BBBA</color>
-    <color name="baseColor_cyanSuperLight">#E8F3F3</color>
+    <color name="cyanDark">#008A83</color>
+    <color name="cyan">#54BBBA</color>
+    <color name="cyanLight">#E8F3F3</color>
 
-    <color name="baseColor_cherryDark">#CC4B3E</color>
-    <color name="baseColor_cherryLight">#EC786C</color>
-    <color name="baseColor_cherrySuperLight">#F8EFEE</color>
+    <color name="cherryDark">#CC4B3E</color>
+    <color name="cherry">#EC786C</color>
+    <color name="cherryLight">#F8EFEE</color>
 
-    <color name="baseColor_mikadoYellowDark">#FBB80E</color>
-    <color name="baseColor_mikadoYellowLight">#FCC947</color>
-    <color name="baseColor_mikadoYellowSuperLight">#FFF6E2</color>
+    <color name="mikadoYellowDark">#FBB80E</color>
+    <color name="mikadoYellow">#FCC947</color>
+    <color name="mikadoYellowLight">#FFF6E2</color>
 
-    <color name="baseColor_concreteDark">#565A5C</color>
-    <color name="baseColor_concreteMedium">#AFB0B2</color>
-    <color name="baseColor_concreteLight">#ECECEC</color>
-    <color name="baseColor_concreteSuperLight">#FAFAFA</color>
-
-    <color name="baseColor_whitePaper">#FFF</color>
-
-    <color name="baseColor_translucentBlack">#4D000000</color>
-
-    <color name="baseColor_blueFacebook">#3b5998</color>
+    <color name="concreteDark">#565A5C</color>
+    <color name="concrete">#AFB0B2</color>
+    <color name="concreteLight">#ECECEC</color>
 
 </resources>

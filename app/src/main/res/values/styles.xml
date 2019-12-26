@@ -6,7 +6,7 @@
     </style>
 
     <style name="SnackbarStyle" parent="Widget.MaterialComponents.Snackbar">
-        <item name="android:backgroundTint">@color/baseColor_concreteDark</item>
+        <item name="android:backgroundTint">@color/concreteDark</item>
     </style>
 
     <style name="SnackbarButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
